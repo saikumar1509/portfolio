@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7a9ce14fc4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p id="logo">MY PORTFOLIO</p>
+                <ul>
+                    <li><a href="#a">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work-experience">Work Experiece</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Coder | Developer</p>
+                <h1>Hi, I'm <span>Sai Kumar Kondaparthi.</span><br></h1>
+                <p>Scroll down to know more about me!</p>
+            </div>
+        </div>
+    </div>
+<!-- -----------------------------------------about--------------------------------- -->
+    <div id="about">
+        <div class="container-com">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="passport.jpg" id="img-about">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a dedicated, hardworking and proactive person with strong coding and 
+                        problem-solving skills. Although I am from Electrical and Electronics Engineering 
+                        back ground, I hava a keen intrest in IT industry.Thus, developed skills in java programming and 
+                        also in some front-end web technologies which includes HTML, CSS and Javascript.Built some 
+                        web applications like, real time wheather report website, 
+                        tic-tac-toe game and rock-paper-scissor-game using HTML, CSS and Javascript web technologies.
+                    </p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                        <li><span>Programming Language.</span><br>
+                            Java, Object Oriented Programming, Python, C language.
+                        </li>
+                        <li><span>Web Development.</span><br>
+                            HTML, CSS, Javascript.
+                        </li>
+                        <li><span>Tools and Technologies.</span><br>
+                            Git and Github.
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                        <li><span>Bharat Intern, Web Developer (Virtual Internship).<br></span>Jul 2024 - Aug 2024.
+                            
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                        <li><span>B.Tech, Kamala Institute of Technology and Science, Huzurabad.</span><br>
+                            Electrical and Electronics Engineering, CGPA: 7.13
+                        </li>
+                        <li><span>Diploma, Government Polytechnic, Warangal.</span><br>
+                            Electrical and Electronics Engineering, CGPA: 9.42
+                        </li>
+                        <li><span>SSC, Tetra Hedron Model School, Huzurabad.</span><br>
+                            Class X, GPA: 9.5
+                        </li>
+                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------work experinece----------------- -->
+<div id="work-experience">
+    <h1 id="title">My Work Experience</h1>
+    <div class="container-com">
+        <div class="work-row">
+            <div class="work-col-1">
+                <img src="work.jpeg" id ="work-image">
+            </div>
+            <div class="work-col-2">
+                <h1>Work Details</h1>
+                <p>
+                    <span>Company Name:</span> Bharat Intern, Web Developer (Virtual Internship).<br>
+                    <span>Work Period :</span>Jul 2024-Aug 2024 (1 Month).
+                </p>
+                <p>
+                <br>
+                As a web development intern in Bharat Intern, I actively participated indesigning, developing, and maintaining
+                websites and webapplications. This involves in writing clean and efficient code using languages such 
+                as HTML,CSS,JavaScript.<br>
+                <br>
+                <p>
+                    <span>Project-1:</span>Portfolio website.<br>
+                    <span>Project-2:</span>Weather Website.
+                </p>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -------------------------------------projects---------------------------- -->
+
+<div id="projects">
+    <div class="container-com">
+        <h1 class="sub-title">Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="weather.jpg">
+                <div class="layer">
+                    <h3>Real-time Weather report website</h3>
+                    <p>This app provides real-time weather conditions using open source weather API.</p>
+                    <a href="https://saikumar1509.github.io/weather-app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="remote-solar-power-monitoring.jpg">
+                <div class="layer">
+                    <h3>Remote solar power monitoring using IOT devices.</h3>
+                    <p>This project uses hardware kits and components like electrical sensors, Arduino UNO board and this project
+                        is used to send real time Electrical data to cloud using IOT's.
+                    </p>
+                    <a href="https://github.com/saikumar1509/Remote-solar-power-monitoring-using-IOT-devices/blob/main/final/final.ino" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="tic-tac-toe.png">
+                <div class="layer">
+                    <h3>Tic-Tac-Toe game.</h3>
+                    <p>This is a simple web application which is used to play a game named tic-tac-toe game between two players.</p>
+                    <a href="https://saikumar1509.github.io/tic-tac-toe-game/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</div>
+<!-- ---------------------------------------------contact details-------------------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <h1 class="contact-title">Contact Details</h1>
+    </div>
+    <div class="contact-details">
+        <a href="tel: +916281853681"><i class="fa-solid fa-phone"></i></a>
+        <a href="mailto: saikumarkondaparthi03@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://github.com/saikumar1509" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/saikumar-kondaparthi-05653420a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <a href="resume.pdf" download="" class="btn">Download Resume</a>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
+
+        
